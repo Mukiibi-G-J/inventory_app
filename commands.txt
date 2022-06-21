@@ -1,0 +1,4 @@
+pip install djangorestframework python-decouple
+docker-compose up
+//! runs in the background
+docker-comopose up -d

@@ -11,7 +11,7 @@ services:
     volumes:
       - inventory_app:/data/inventory_app
     ports:
-      - '5434:5432'
+      - '5436:5432'
     networks:
       - inventory_app_net
     restart: unless-stopped
